@@ -5,7 +5,6 @@ from sklearn import metrics
 
 import matplotlib.pyplot as plt
 
-import scipy as sp
 import scipy.sparse
 import scipy.sparse.linalg
 
@@ -19,9 +18,6 @@ from torch.nn.parameter import Parameter
 from torch.nn.modules.module import Module
 
 
-import pandas as pd
-import numpy as np
-import scipy as sp
 
 class ALS():
     def __init__(self, RDmatrix ,trainOmega , testOmega ):
